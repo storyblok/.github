@@ -5,8 +5,6 @@ about: Create an issue to help us improve
 
 [storyblokurl]: https://www.storyblok.com?utm_source=github.com&utm_medium=issue-template
 
-[![storyblok.com](https://a.storyblok.com/f/88751/1776x360/4d075611c6/sb-js-sdk.png)][storyblokurl]
-
 <!--- Please provide a general summary of the bug in the Title above -->
 
 ---
