@@ -1,9 +1,17 @@
 blank_issues_enabled: false
-contact_links:
-  - name: Storyblok Help Center/Service Desk - official support channel
+contact_links:    
+  - name: Storyblok Livechat - the quickest way to get help
+    url: https://www.storyblok.com/
+    about: Need help? Contact our awesome support team!
+  
+  - name: Storyblok Helpdesk
     url: https://storyblok.atlassian.net/servicedesk/customer/portals
-    about: You can raise a request for Storyblok Service Desk.
+    about: The easiest way to report bugs and raise your questions.
     
-  - name: Discord community - no official support is provided via Discord
+  - name: Discord community
     url: https://discord.gg/WmMYYQp
-    about: You can reach out to Storyblok Discord community.
+    about: Discuss your challenges with our growing community of superb developers and ambassadors.
+    
+  - name: Feature idea?
+    url: https://www.storyblok.com/faq/How-to-report-bugs-and-request-features-on-storyblok
+    about: Find out why we temporarily paused public feature requests.
