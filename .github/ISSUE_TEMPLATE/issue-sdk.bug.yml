@@ -1,0 +1,60 @@
+name: "\U0001F41E SDK Bug Report"
+description: Report an issue with Storyblok SDK
+labels: [pending-triage, pending-author]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You're now going to fill out a bug report at the Storyblok SDK you're using. Thanks a lot for taking the time and let's make Storyblok better together!
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the issue you're facing
+      description: A clear and concise description of what the bug is. If you intend to submit a PR for this issue, tell us in the description. Thanks!
+      placeholder: My Storyblok SDK configuration is ... ## Expected behavior ... ## Current Behavior ...
+    validations:
+      required: true
+  - type: input
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Please provide a link to a repo or Stackblitz that can reproduce the issue you ran into. A minimal reproduction is required, if a report is vague and has no reproduction, it will receive a "need reproduction" label.
+      placeholder: Reproduction URL
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Steps to reproduce
+      description: Please provide any reproduction steps that may need to be described. E.g. if it happens only when running the dev or build script make sure it's clear which one to use.
+      placeholder: Run `npm install` followed by `npm run dev`
+  - type: textarea
+    id: system-info
+    attributes:
+      label: System Info
+      description: Output of `npx envinfo --system --npmPackages '{@storyblok/*}' --binaries --browsers`
+      render: shell
+      placeholder: System, Binaries, Browsers
+    validations:
+      required: true
+  - type: dropdown
+    id: package-manager
+    attributes:
+      label: Used Package Manager
+      description: Select the used package manager
+      options:
+        - npm
+        - yarn
+        - pnpm
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error logs (Optional)
+      description: |
+        Optional if provided reproduction. Please copy and paste the log text.
+  - type: markdown
+    attributes:
+      value: |
+        This template was inspired in the [Vite issue template](https://github.com/vitejs/vite/blob/main/.github/ISSUE_TEMPLATE/bug_report.yml)
