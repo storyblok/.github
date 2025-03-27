@@ -20,7 +20,7 @@ Storyblok is a headless content management system (CMS) that empowers developers
   <a href="https://www.storyblok.com/docs/concepts/">Concepts</a> —
   <a href="https://www.storyblok.com/tutorials">Tutorials</a> —
   <a href="https://www.storyblok.com/docs/api">API's</a> —
-  <a href="hhttps://www.storyblok.com/changelog">Changelog</a>
+  <a href="https://www.storyblok.com/changelog">Changelog</a>
 </div>
 
 
